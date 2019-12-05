@@ -44,5 +44,5 @@ logo.src = siteContent["nav"]["img-src"]
 //Update Nav Links
 let navigation = document.querySelectorAll('nav a')
 navigation.forEach((element, index)=> {
-  element.innerText = siteContent["nav"]["nav-item-"].concat(index+1)]
+  element.innerText = siteContent["nav"]["nav-item-"].concat(index+1)
 })
